@@ -22,6 +22,9 @@
   font-size: var(--normal-font);
   white-space: nowrap;
   font-weight: var(--font-bold);
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--text-color);
 }
 
 .header__logo-image {
@@ -36,7 +39,7 @@
 }
 
 .header__logo:hover {
-  transform: scale(1.1); /* Escala la imagen al 110% */
+  transform: scale(1.1); 
 }
 
 .header__nav-list {
