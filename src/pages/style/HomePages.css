@@ -55,7 +55,6 @@
   color: transparent;
 }
 
-
 .portfolio__img {
   width: 30%;
   transition: transform 0.3s ease-in-out;
@@ -63,4 +62,39 @@
 
 .portfolio__img:hover {
   transform: scale(1.1);
+}
+
+/* Media Query para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .portfolio {
+    height: auto;
+    padding: 2em 1em;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .portfolio__tit-des {
+    width: 100%;
+    padding: 1em 0;
+  }
+
+  .portfolio__title {
+    font-size: var(--medium-font);
+  }
+
+  .portfolio__description {
+    padding: 0;
+    text-align: justify;
+  }
+
+  .portfolio__subtitle {
+    font-size: var(--small-font);
+    text-align: left;
+  }
+
+  .portfolio__img {
+    width: 100%;
+    max-width: none;
+    margin: 1em 0;
+  }
 }

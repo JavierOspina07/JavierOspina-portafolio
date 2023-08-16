@@ -20,13 +20,12 @@
   color: transparent;
 }
 
-
 .about__title::before {
-    content: "= (";
-  }
-  .about__title::after {
-    content: " ) => ";
-  }
+  content: "= (";
+}
+.about__title::after {
+  content: " ) => ";
+}
 
 .about__description {
   font-size: var(--normal-font);
@@ -34,3 +33,23 @@
   text-align: justify;
 }
 
+@media screen and (max-width: 768px) {
+  .about {
+    padding: 0 10%;
+  }
+
+  .about__title {
+    font-size: var(--medium-font);
+  }
+
+  .about__title::before {
+    content: "[";
+  }
+  .about__title::after {
+    content: "] => ";
+  }
+
+  .about__description {
+    font-size: var(--small-font);
+  }
+}
