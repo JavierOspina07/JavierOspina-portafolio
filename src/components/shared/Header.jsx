@@ -8,7 +8,7 @@ const header = () => {
       <Link to={"/"} className="header__logo">
         <div className="header__logo-content">
           <img
-            src="../public/img/iconoprincipal.png"
+            src="/img/iconoprincipal.png"
             alt=""
             className="header__logo-image"
           />
