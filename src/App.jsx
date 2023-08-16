@@ -7,14 +7,10 @@ import Contact from "./pages/Contact"
 import Projects from "./pages/Projects"
 import Skills from "./pages/Skills"
 
-
 function App() {
-
-
-
   return (
     <div>
-      <Header/>
+      <Header />
       <Routes>
         <Route path="/" element={<HomePages />} />
         <Route path="/about" element={<About />} />
