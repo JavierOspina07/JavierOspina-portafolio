@@ -31,7 +31,18 @@
   font-size: var(--normal-font);
   font-weight: var(--font-normal);
   text-align: justify;
+  animation: bounce 2s ;
 }
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   .about {
