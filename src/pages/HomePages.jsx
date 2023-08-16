@@ -16,7 +16,7 @@ const HomePages = () => {
       </div>
         <img
           className="portfolio__img"
-          src="../public/img/iconoprincipal.png"
+          src="/img/iconoprincipal.png"
           alt=""
         />
       
