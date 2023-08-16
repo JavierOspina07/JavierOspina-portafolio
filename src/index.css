@@ -7,17 +7,16 @@
   /* colors */
   --primary-color: #DC3715;
   --secondary-color: #144D8E;
-  --background-color: #ffffff;
+  --bg-color: #ffffff;
   --text-color: #000000;
   --color-price: #aaa;
   --color-input: #dcd9d9;
-  --color-cart: brown;
-  --color-to-close: rgb(255, 0, 0);
+  --color-close: rgb(255, 0, 0);
   --color-footer: #272626;
   --card-color: hsl(0, 0%, 90%);
 
   /* Font and typography */
-  --big-font: 2rem;
+  --big-font: 4rem;
   --medium-font: 1.5rem;
   --normal-font: 1rem;
   --small-font: 0.8rem;

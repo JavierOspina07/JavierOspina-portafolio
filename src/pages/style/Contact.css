@@ -73,3 +73,9 @@
   transform: translateX(0em) translateY(0em);
   box-shadow: none;
 }
+
+@media screen and (max-width: 767px) {
+  .form{
+    margin-bottom: 3em;
+  }
+}

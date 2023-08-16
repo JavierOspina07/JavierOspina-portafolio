@@ -1,0 +1,36 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 20%;
+  gap: 1em;
+}
+
+.about__title {
+  font-size: var(--big-font);
+  font-weight: var(--font-bold);
+  background: linear-gradient(
+    45deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
+.about__title::before {
+    content: "= (";
+  }
+  .about__title::after {
+    content: " ) => ";
+  }
+
+.about__description {
+  font-size: var(--normal-font);
+  font-weight: var(--font-normal);
+  text-align: justify;
+}
+
