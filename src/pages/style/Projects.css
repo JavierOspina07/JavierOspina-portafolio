@@ -113,7 +113,6 @@
   background: transparent;
   color: blue;
   pointer-events: auto;
-
 }
 
 .card-btn-github {
@@ -148,7 +147,6 @@
   border: none;
   transition: transform 0.2s, box-shadow 0.2s, color 0.2s;
   pointer-events: none;
-
 }
 
 .fa-brands.fa-github:hover,

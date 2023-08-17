@@ -3,6 +3,7 @@
   top: 50%;
   left: 0%;
   transform: translateY(-50%);
+  z-index: var(--z-modal);
 }
 
 .social__list {
@@ -15,6 +16,7 @@
 
 .social__item {
   margin-bottom: 1em;
+  
 }
 
 .social__link {
@@ -64,6 +66,7 @@
 }
 .social__tooltip.textwhatsapp{
  background-color: var(--color-whatsapp);
+
  
 }
 .social__tooltip.textgithub{
@@ -72,8 +75,6 @@
 .social__tooltip.textcv{
  background-color: var(--color-export);
 }
-
-
 
 .social__link:hover .social__tooltip {
   opacity: 5;
@@ -94,3 +95,8 @@
   border-radius: 2px;
 }
 
+@media screen and (max-width: 760px){
+    .social{
+        display: 1;
+    }
+}
