@@ -58,7 +58,7 @@ const header = () => {
           </ul>
           <button className="mobile-menu-icon" onClick={handleMobile}>
             {isMobile ? (
-              <i className="fa-solid fa-xmark"></i>
+              <i className='bx bx-x'></i>
             ) : (
               <i className="bx bx-grid-alt"></i>
             )}
