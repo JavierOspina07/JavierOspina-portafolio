@@ -1,0 +1,94 @@
+.social {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+}
+
+.social__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.social__item {
+  margin-bottom: 1em;
+}
+
+.social__link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.fa-brands,
+.fa-solid {
+  font-size: 2em;
+}
+
+.fa-linkedin {
+  color: var(--color-linkedin);
+}
+
+.fa-whatsapp {
+  color: var(--color-whatsapp);
+}
+
+.fa-github {
+  color: var(--color-github);
+}
+
+.fa-file-export {
+  color: var(--color-export);
+}
+
+.social__tooltip {
+  position: absolute;
+  left: calc(100% + 10px);
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  padding: 1.5px 40px;
+  border-radius: 4px;
+  font-size: 20px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.social__tooltip.textlinkedin{
+ background-color: var(--color-linkedin);
+}
+.social__tooltip.textwhatsapp{
+ background-color: var(--color-whatsapp);
+ 
+}
+.social__tooltip.textgithub{
+ background-color: var(--color-github);
+}
+.social__tooltip.textcv{
+ background-color: var(--color-export);
+}
+
+.social__link:hover .social__tooltip {
+  opacity: 5;
+}
+
+.social__link:hover {
+  transform: translateX(5px);
+}
+
+.social__link:hover::before {
+  content: "";
+  position: absolute;
+  left: -10px; /* Ajusta la posición del recuadro */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 20px; /* Ajusta la altura del recuadro */
+  border-radius: 2px;
+}
+

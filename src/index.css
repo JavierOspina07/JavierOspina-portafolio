@@ -5,8 +5,8 @@
   /* Header height  */
   --header-height: 56px;
   /* colors */
-  --primary-color: #DC3715;
-  --secondary-color: #144D8E;
+  --primary-color: #dc3715;
+  --secondary-color: #144d8e;
   --bg-color: #ffffff;
   --text-color: #000000;
   --color-price: #aaa;
@@ -14,6 +14,12 @@
   --color-close: rgb(255, 0, 0);
   --color-footer: #272626;
   --card-color: hsl(0, 0%, 90%);
+
+  /* color social media */
+  --color-linkedin:#0077b5;
+  --color-whatsapp:#25d366;
+  --color-github:#333333;
+  --color-export:#444343;
 
   /* Font and typography */
   --big-font: 4rem;
@@ -41,7 +47,6 @@
   --z-fixed: 2;
   --z-modal: 3;
 }
-
 
 * {
   box-sizing: border-box;
@@ -79,8 +84,8 @@ input {
   font-family: inherit;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 /* Cambiar el color de fondo de la barra de desplazamiento */
@@ -92,7 +97,11 @@ a{
 
 /* Cambiar el color del "thumb" (control deslizante) de la barra de desplazamiento */
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to top, var(--secondary-color), var(--primary-color));
+  background: linear-gradient(
+    to top,
+    var(--secondary-color),
+    var(--primary-color)
+  );
   border-radius: 0.5em;
 }
 
