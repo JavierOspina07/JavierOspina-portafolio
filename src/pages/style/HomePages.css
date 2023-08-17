@@ -38,6 +38,12 @@
   animation: apareceDesdeAbajo 1s forwards;
 
 }
+.portfolio__title::before {
+  content: "{<";
+}
+.portfolio__title::after {
+  content: " />}";
+}
 
 @keyframes apareceDesdeAbajo {
   to {
@@ -47,12 +53,6 @@
 }
 
 
-.portfolio__title::before {
-  content: "{<";
-}
-.portfolio__title::after {
-  content: " />}";
-}
 
 .portfolio__subtitle {
   font-size: var(--medium-font);
