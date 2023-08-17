@@ -27,7 +27,8 @@ const SocialNetworks = () => {
         </li>
         <li className="social__item">
           <a
-            href="#"
+            href="https://mail.google.com/mail/?view=cm&to=jaheosig10%40gmail.com&su=TRABAJO
+            "
             target="_blank"
             className="social__link social__link-email"
           >
