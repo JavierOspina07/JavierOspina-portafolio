@@ -47,6 +47,10 @@
   color: var(--color-export);
 }
 
+.fa-envelope {
+  color: var(--color-email);
+}
+
 .social__tooltip {
   position: absolute;
   left: calc(100% + 10px);
@@ -67,13 +71,15 @@
 .social__tooltip.textwhatsapp{
  background-color: var(--color-whatsapp);
 
- 
 }
 .social__tooltip.textgithub{
  background-color: var(--color-github);
 }
 .social__tooltip.textcv{
  background-color: var(--color-export);
+}
+.social__tooltip.textemail{
+ background-color: var(--color-email);
 }
 
 .social__link:hover .social__tooltip {

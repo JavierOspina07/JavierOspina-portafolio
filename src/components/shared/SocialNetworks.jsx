@@ -5,25 +5,52 @@ const SocialNetworks = () => {
     <div className="social">
       <ul className="social__list">
         <li className="social__item">
-          <a href="#" className="social__link social__link-linkedin">
+          <a
+            href="https://www.linkedin.com/in/javier-hernan-ospina-igua-94b653224/"
+            target="_blank"
+            className="social__link social__link-linkedin"
+          >
             <i className="fa-brands fa-linkedin"></i>
             <span className="social__tooltip textlinkedin">LinkedIn</span>
           </a>
         </li>
+
         <li className="social__item">
-          <a href="#" className="social__link social__link-whatsapp">
+          <a
+            href="https://wa.me/573183769205"
+            target="_blank"
+            className="social__link social__link-whatsapp"
+          >
             <i className="fa-brands fa-whatsapp"></i>
             <span className="social__tooltip textwhatsapp">Whatsapp</span>
           </a>
         </li>
         <li className="social__item">
-          <a href="#" className="social__link social__link-github">
-            <i className="fa-brands fa-github"></i>
-            <span className="social__tooltip textgithub" >GitHub</span>
+          <a
+            href="#"
+            target="_blank"
+            className="social__link social__link-email"
+          >
+            <i class="fa-solid fa-envelope"></i>
+            <span className="social__tooltip textemail">Email</span>
           </a>
         </li>
         <li className="social__item">
-          <a href="#" className="social__link social__link-export">
+          <a
+            href="https://github.com/JavierOspina07"
+            target="_blank"
+            className="social__link social__link-github"
+          >
+            <i className="fa-brands fa-github"></i>
+            <span className="social__tooltip textgithub">GitHub</span>
+          </a>
+        </li>
+        <li className="social__item">
+          <a
+            href="#"
+            target="_blank"
+            className="social__link social__link-export"
+          >
             <i className="fa-solid fa-file-export"></i>
             <span className="social__tooltip textcv">CV</span>
           </a>
