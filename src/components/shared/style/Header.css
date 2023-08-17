@@ -111,6 +111,7 @@
     box-shadow: 0 0 10px #0000001a;
   }
 
+  
   .header__nav-link {
     display: flex;
     align-items: center;
@@ -136,3 +137,4 @@
     color: var(--color-close);
   }
 }
+
