@@ -371,6 +371,10 @@ body.dark-mode {
   .header__logo-title{
     color: var(--card-color);
   }
+
+  .fa-github{
+    color: white;
+  }
 }
 
 /* Para el navegador Google Chrome y Microsoft Edge (basado en Chromium) */
