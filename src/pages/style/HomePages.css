@@ -34,8 +34,6 @@
   font-weight: var(--font-normal);
   text-align: justify;
   overflow: hidden;
-  transform: translateY(100%);
-  animation: apareceDesdeAbajo 1s forwards;
 
 }
 .portfolio__title::before {
