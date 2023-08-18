@@ -372,8 +372,12 @@ body.dark-mode {
     color: var(--card-color);
   }
 
-  .fa-github{
+ .fa-brands.fa-github {
     color: white;
+  }
+
+  .card-btn-github i.fa-github {
+    color: black; 
   }
 }
 
