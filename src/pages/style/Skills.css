@@ -95,7 +95,9 @@
   }
 
   .skills {
+    padding-top: 10em;
     display: flex;
+    gap: 1em;
     flex-wrap: wrap;
     max-width: 70%;
   }
