@@ -49,8 +49,7 @@
   max-width: 5em;
   height: auto;
   background-color: transparent;
-  transition: box-shadow 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out,transform 0.3s ease-in-out;
   border-radius: 10%;
 }
 
@@ -72,6 +71,7 @@
 
 .skills__icon-css:hover {
   transform: scale(1.1);
+  
 }
 .skills__icon-html:hover {
   transform: scale(1.1);
@@ -85,6 +85,8 @@
 .skills__icon-nodejs:hover {
   transform: scale(1.1);
 }
+
+
 
 @media (max-width: 768px) {
   .skills-title {

@@ -25,17 +25,18 @@ const SocialNetworks = () => {
             <span className="social__tooltip textwhatsapp">Whatsapp</span>
           </a>
         </li>
+
         <li className="social__item">
           <a
-            href="https://mail.google.com/mail/?view=cm&to=jaheosig10%40gmail.com&su=TRABAJO
-            "
+            href="https://mail.google.com/mail/?view=cm&to=jaheosig10%40gmail.com&su="
             target="_blank"
             className="social__link social__link-email"
           >
-            <i class="fa-solid fa-envelope"></i>
+            <i className="fa-solid fa-envelope"></i>
             <span className="social__tooltip textemail">Email</span>
           </a>
         </li>
+
         <li className="social__item">
           <a
             href="https://github.com/JavierOspina07"
@@ -46,6 +47,7 @@ const SocialNetworks = () => {
             <span className="social__tooltip textgithub">GitHub</span>
           </a>
         </li>
+
         <li className="social__item">
           <a
             href="#"
@@ -56,6 +58,7 @@ const SocialNetworks = () => {
             <span className="social__tooltip textcv">CV</span>
           </a>
         </li>
+
       </ul>
     </div>
   )
