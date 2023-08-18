@@ -50,9 +50,10 @@ const SocialNetworks = () => {
 
         <li className="social__item">
           <a
-            href="#"
+            href="/documents/cvprueba.pdf"
             target="_blank"
             className="social__link social__link-export"
+            download={''}
           >
             <i className="fa-solid fa-file-export"></i>
             <span className="social__tooltip textcv">CV</span>
