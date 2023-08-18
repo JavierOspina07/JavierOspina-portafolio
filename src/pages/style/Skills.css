@@ -50,24 +50,31 @@
   max-width: 5em;
   height: auto;
   background-color: transparent;
-  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
-  border-radius: 10%;
+  transition: box-shadow 0.3s ease-in-out, transform 1.5s ease-in-out, opacity 1s ease-in-out;
+  border-radius: 80%;
+  opacity: 0;
+  transform: translateY(50px);  
+}
+
+.skills__icon.appear {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .skills__icon-css {
-  box-shadow: 0px 0px 40px hsla(228, 78%, 52%, 0.902);
+  box-shadow: 0px 40px 40px hsla(228, 78%, 52%, 0.902);
 }
 .skills__icon-html {
-  box-shadow: 0px 0px 40px #e34f26e6;
+  box-shadow: 0px 40px 40px #e34f26e6;
 }
 .skills__icon-javascript {
-  box-shadow: 0px 0px 40px #f7df1ee6;
+  box-shadow: 0px 40px 40px #f7df1ee6;
 }
 .skills__icon-react {
-  box-shadow: 0px 0px 40px #00d8ffe6;
+  box-shadow: 0px 40px 40px #00d8ffe6;
 }
 .skills__icon-nodejs {
-  box-shadow: 0px 0px 40px #8cc84be6;
+  box-shadow: 0px 40px 40px #8cc84be6;
 }
 
 .skills__icon-css:hover {

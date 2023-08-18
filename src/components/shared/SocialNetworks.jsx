@@ -28,7 +28,7 @@ const SocialNetworks = () => {
 
         <li className="social__item">
           <a
-            href="https://mail.google.com/mail/?view=cm&to=jaheosig10%40gmail.com&su="
+            href="https://mail.google.com/mail/?view=cm&to=jaheosig10%40gmail.com"
             target="_blank"
             className="social__link social__link-email"
           >
@@ -50,7 +50,7 @@ const SocialNetworks = () => {
 
         <li className="social__item">
           <a
-            href="/documents/cvprueba.pdf"
+            href="/documents/CV_AH_JavierOspina.pdf"
             target="_blank"
             className="social__link social__link-export"
             download={''}
