@@ -362,7 +362,6 @@ body.dark-mode {
   
   .form,
   .header{
-    position: absolute;
     background: transparent;
     /* box-shadow: none; */
   }
