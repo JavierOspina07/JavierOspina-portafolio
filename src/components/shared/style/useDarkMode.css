@@ -362,7 +362,9 @@ body.dark-mode {
   
   .form,
   .header{
-    background-image: linear-gradient(to right, #404258, #474E68);
+    position: absolute;
+    background: transparent;
+    /* box-shadow: none; */
   }
   
   .mobile-menu-icon,
