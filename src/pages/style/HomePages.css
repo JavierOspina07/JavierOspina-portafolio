@@ -32,7 +32,6 @@
 .portfolio__description {
   font-size: var(--normal-font);
   font-weight: var(--font-normal);
-  text-align: justify;
   overflow: hidden;
 
 }
@@ -93,7 +92,6 @@
 
   .portfolio__description {
     padding: 0;
-    text-align: justify;
   }
 
   .portfolio__subtitle {

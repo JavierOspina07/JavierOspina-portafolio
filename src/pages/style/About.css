@@ -30,7 +30,6 @@
 .about__description {
   font-size: var(--normal-font);
   font-weight: var(--font-normal);
-  text-align: justify;
   animation: bounce 2s ;
 }
 
