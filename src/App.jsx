@@ -7,13 +7,13 @@ import Contact from "./pages/Contact"
 import Projects from "./pages/Projects"
 import Skills from "./pages/Skills"
 import SocialNetworks from "./components/shared/SocialNetworks"
-import DarkModebutton from "./components/DarkModebutton"
+import DarkModebutton from "./components/shared/DarkModebutton"
 
 function App() {
   return (
     <div className="app">
       <Header />
-      <DarkModebutton/>
+      <DarkModebutton />
       <SocialNetworks />
       <Routes>
         <Route path="/" element={<HomePages />} />
