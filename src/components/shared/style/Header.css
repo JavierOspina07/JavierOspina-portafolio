@@ -88,6 +88,7 @@
   .header {
     position: fixed;
     bottom: 0;
+    box-shadow: none;
   }
 
   /* ===== ESTILOS DEL MENU OCULTO ===== */
