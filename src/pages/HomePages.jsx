@@ -1,6 +1,7 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from "react"
 import "./style/HomePages.css"
 import { Cursor, useTypewriter } from "react-simple-typewriter"
+
 
 const HomePages = () => {
   const [text] = useTypewriter({
@@ -11,30 +12,30 @@ const HomePages = () => {
     typeSpeed: 10,
   })
 
-  const [fullText, setFullText] = useState(""); // Estado para almacenar el texto completo
+  const [fullText, setFullText] = useState("") // Estado para almacenar el texto completo
 
   useEffect(() => {
-    setFullText(text); // Actualiza el estado con el texto completo
-  }, [text]);
+    setFullText(text) // Actualiza el estado con el texto completo
+  }, [text])
 
   return (
-    <div className="portfolio">
-      <div className="portfolio__tit-des">
-        <h1 className="portfolio__title">Javier_Ospina</h1>
-        <h3 className="portfolio__subtitle">Desarrollador Full Stack</h3>
+      <div className="portfolio">
+        <div className="portfolio__tit-des">
+          <h1 className="portfolio__title">Javier_Ospina</h1>
+          <h3 className="portfolio__subtitle">Desarrollador Full Stack</h3>
 
-        <div className="portfolio__description">
-          ¡Bienvenido a mi portafolio creativo! {' '}
-          <span>
-          {fullText} {/* Mostrar el texto completo */}
-          </span>
-          <span style={{color: 'red'}}>
-            <Cursor cursorStyle='/'/>
-          </span>
+          <div className="portfolio__description">
+            ¡Bienvenido a mi portafolio creativo!{" "}
+            <span>
+              {fullText} 
+            </span>
+            <span style={{ color: "red" }}>
+              <Cursor cursorStyle="/" />
+            </span>
+          </div>
         </div>
+        <img className="portfolio__img" src="/img/iconoprincipal.png" alt="" />
       </div>
-      <img className="portfolio__img" src="/img/iconoprincipal.png" alt="" />
-    </div>
   )
 }
 
