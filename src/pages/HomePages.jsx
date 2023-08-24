@@ -1,41 +1,36 @@
 import { useEffect, useState } from "react"
 import "./style/HomePages.css"
 import { Cursor, useTypewriter } from "react-simple-typewriter"
-
+import { useTranslation } from "react-i18next"
 
 const HomePages = () => {
+  const [t, i18n] = useTranslation("global")
+
   const [text] = useTypewriter({
     words: [
-      "Me complace compartir contigo una muestra de mi trabajo, logros y pasiones a lo largo de mi trayectoria como programador. En estas páginas encontrarás una colección de proyectos que representan mi compromiso con laexcelencia, la creatividad y la dedicación en cada paso del camino.",
+      t("Portfolio.description"),
     ],
-    loop: 1,
+    loop: false,
     typeSpeed: 10,
+    delaySpeed: 10000,
+    deleteSpeed:0.001,
   })
 
-  const [fullText, setFullText] = useState("") // Estado para almacenar el texto completo
-
-  useEffect(() => {
-    setFullText(text) // Actualiza el estado con el texto completo
-  }, [text])
-
   return (
-      <div className="portfolio">
-        <div className="portfolio__tit-des">
-          <h1 className="portfolio__title">Javier_Ospina</h1>
-          <h3 className="portfolio__subtitle">Desarrollador Full Stack</h3>
+    <div className="portfolio">
+      <div className="portfolio__tit-des">
+        <h1 className="portfolio__title">Javier_Ospina</h1>
+        <h3 className="portfolio__subtitle">{t("Portfolio.subtitle")}</h3>
 
-          <div className="portfolio__description">
-            ¡Bienvenido a mi portafolio creativo!{" "}
-            <span>
-              {fullText} 
-            </span>
-            <span style={{ color: "red" }}>
-              <Cursor cursorStyle="/" />
-            </span>
-          </div>
+        <div className="portfolio__description">
+          {text}
+          <span style={{ color: "red" }}>
+            <Cursor cursorStyle="/" />
+          </span>
         </div>
-        <img className="portfolio__img" src="/img/iconoprincipal.png" alt="" />
       </div>
+      <img className="portfolio__img" src="/img/iconoprincipal.png" alt="" />
+    </div>
   )
 }
 

@@ -29,9 +29,9 @@ const header = () => {
               className="header__logo-image"
             />
             <h2 className="header__logo-title">Javier Ospina</h2>
-            <button onClick={handleLanguaje}><i class="fa-solid fa-language"></i></button>
           </div>
         </Link>
+            <button onClick={handleLanguaje}><i class="fa-solid fa-language"></i></button>
         <nav className="header__nav">
           <ul
             className={

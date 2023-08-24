@@ -5,5 +5,15 @@
     "Skills": "Skills",
     "Projects": "Projects",
     "Contact": "Contact"
+  },
+
+  "Portfolio": {
+    "subtitle": "Full Stack Developer",
+    "description": "Welcome to my creative portfolio! I'm pleased to share with you a sampling of my work, accomplishments and passions throughout my career as a programmer. In these pages you will find a collection of projects that represent my commitment to excellence, creativity, and dedication every step of the way."
+  },
+
+  "About": {
+    "about-me": "About me",
+    "about": "Academlo student in Full Stack development, passionate about programming and problem solving. I possess skills in leadership and teamwork that I have applied during my development as a student. My knowledge base is focused on JavaScript, CSS, HTML, React and Node.js. I also possess some knowledge in design, which has allowed me to improve my projects. I have a solid Front-End proficiency, but my goal is to continue to improve my skills through new projects. Valuing punctuality and responsibility, I strive to maintain a committed attitude towards the projects I develop. I appreciate listening to diverse opinions, as they contribute to the enrichment of my work and professional development."
   }
 }
