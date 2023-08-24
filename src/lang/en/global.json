@@ -17,7 +17,44 @@
     "about": "Academlo student in Full Stack development, passionate about programming and problem solving. I possess skills in leadership and teamwork that I have applied during my development as a student. My knowledge base is focused on JavaScript, CSS, HTML, React and Node.js. I also possess some knowledge in design, which has allowed me to improve my projects. I have a solid Front-End proficiency, but my goal is to continue to improve my skills through new projects. Valuing punctuality and responsibility, I strive to maintain a committed attitude towards the projects I develop. I appreciate listening to diverse opinions, as they contribute to the enrichment of my work and professional development."
   },
 
-  "Skills":{
+  "Skills": {
     "skills": "Skills"
+  },
+
+  "projects": {
+    "e-commerce-clothing": "clothing ecommerce",
+    "description": "Apparel e-commerce design with API 'https://ecommercebackend.fundamentos-29.repl.co'. Cart, dark mode and product details for a complete and enhanced shopping experience. Seeks to clearly show the user each product."
+  },
+
+  "galletica": {
+    "subtitle": "play fortune cookie",
+    "description": "Website 'Galletica de la Fortuna': Virtual simulation of opening fortune cookies with inspirational messages and online tips. Interactive and entertaining experience. Using a JSON that provides the phrases, with background change."
+  },
+
+  "climatic":{
+    "subtitle":"climate application",
+    "description": "Weather app with global API =>>>>>> 'https://openweathermap.org/' offering search by location, dark mode, °C to °F conversion and details such as pressure, clouds and wind. Displays temperature and cloud status."
+  },
+
+  "RandM":{
+    "subtitle":"rick and morty characters.",
+    "description":"This application uses the 'https://rickandmortyapi.com/documentation/#get-a -single-location' API to search for characters in different dimensions. It allows you to enter a dimension number or search randomly using a button."
+  },
+
+  "User":{
+    "subtitle" :"User creation page",
+    "description" : "Web page design to create users with the API https://users-crud.academlo.tech/swagger/. It employs CRUD method, presenting data form and informative modalities in each process, the application has dark mode."
+  },
+
+  "poke":{
+    "subtitle": "Application that shows the pokemon",
+    "description": "The page displays the pokemon using the API https://pokeapi.cocon which we can do different types of filtering, using the paths that allow access to detailed information of each pokemon contains a filter by name and by type."
+  },
+
+  "tecn":{
+    "subtitle": "ecommerce of technology products",
+    "description": "Ecommerce application with API integration https://documenter.getpostman.com/view/17877993/2s8ZDczLBj. Displays and filters technology products by price and type. Includes user registration, shopping cart and purchase history."
   }
+
+ 
 }
