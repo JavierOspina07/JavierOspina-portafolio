@@ -54,5 +54,15 @@
   "tecn":{
     "subtitle":"ecommerce de productos tecnologia",
     "description": "Aplicación de comercio electrónico con integración API https://documenter.getpostman.com/view/17877993/2s8ZDczLBj. Muestra y filtra productos tecnológicos por precio y tipo. Incluye registro de usuarios, carrito de compras y historial de compras."
+  },
+
+  "contact":{
+    "title": "Contáctame",
+    "name":"Nombre",
+    "lastname": "Apellido",
+    "email": "email",
+    "phone": "Telefono",
+    "sendto": "Enviar"
+
   }
 }

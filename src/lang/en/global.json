@@ -54,6 +54,16 @@
   "tecn":{
     "subtitle": "ecommerce of technology products",
     "description": "Ecommerce application with API integration https://documenter.getpostman.com/view/17877993/2s8ZDczLBj. Displays and filters technology products by price and type. Includes user registration, shopping cart and purchase history."
+  },
+
+  "contact":{
+    "title": "Contact me",
+    "name": "First Name",
+    "lastname": "Last Name",
+    "email": "email",
+    "phone": "Phone",
+    "sendto": "Send"
+
   }
 
  
