@@ -380,6 +380,11 @@ body.dark-mode {
   .card-btn-github i.fa-github {
     color: black; 
   }
+
+  .bx.bx-world{
+    color: white;
+  }
+
 }
 
 /* Para el navegador Google Chrome y Microsoft Edge (basado en Chromium) */
