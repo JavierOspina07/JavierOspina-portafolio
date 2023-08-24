@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import "./style/Header.css"
 import { useState } from "react"
-import {useTranslation} from 'react-i18next'
+import { useTranslation } from "react-i18next"
 
 const header = () => {
   //estado menu oculto
@@ -12,11 +12,9 @@ const header = () => {
   }
   const [t, i18n] = useTranslation("global")
 
-
-  const handleLanguaje =() =>{
-   i18n.changeLanguage(i18n.language === 'es' ? 'en' : 'es')
+  const handleLanguaje = () => {
+    i18n.changeLanguage(i18n.language === "es" ? "en" : "es")
   }
-
 
   return (
     <div className="header-container">
@@ -31,7 +29,7 @@ const header = () => {
             <h2 className="header__logo-title">Javier Ospina</h2>
           </div>
         </Link>
-            <button onClick={handleLanguaje}><i class="fa-solid fa-language"></i></button>
+
         <nav className="header__nav">
           <ul
             className={
@@ -46,33 +44,36 @@ const header = () => {
             </li>
             <li className="header__nav-item">
               <Link to="/about" className="header__nav-link">
-              {t("Header.About")}
+                {t("Header.About")}
               </Link>
             </li>
             <li className="header__nav-item">
               <Link to="/skills" className="header__nav-link">
-              {t("Header.Skills")}
+                {t("Header.Skills")}
               </Link>
             </li>
             <li className="header__nav-item">
               <Link to="/projects" className="header__nav-link">
-              {t("Header.Projects")}
+                {t("Header.Projects")}
               </Link>
             </li>
             <li className="header__nav-item">
               <Link to="/contact" className="header__nav-link">
-              {t("Header.Contact")}
+                {t("Header.Contact")}
               </Link>
             </li>
           </ul>
           <button className="mobile-menu-icon" onClick={handleMobile}>
             {isMobile ? (
-              <i className='bx bx-x'></i>
+              <i className="bx bx-x"></i>
             ) : (
               <i className="bx bx-grid-alt"></i>
             )}
           </button>
         </nav>
+        <button className="header-btn-langage" onClick={handleLanguaje}>
+          <i class="bx bx-world"></i>
+        </button>
       </header>
     </div>
   )
