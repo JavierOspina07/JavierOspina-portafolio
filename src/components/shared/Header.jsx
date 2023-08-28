@@ -8,10 +8,12 @@ const header = () => {
   const [isMobile, setIsMobile] = useState(false)
   // manipulacion del menu
   const handleMobile = () => {
-    isMobile ? setIsMobile(false) : setIsMobile(true)
+    setIsMobile(!isMobile)
   }
-  const [t, i18n] = useTranslation("global")
 
+  //traductor
+  const [t, i18n] = useTranslation("global")
+  //manipulacion del traductor
   const handleLanguaje = () => {
     i18n.changeLanguage(i18n.language === "es" ? "en" : "es")
   }
@@ -32,9 +34,7 @@ const header = () => {
 
         <nav className="header__nav">
           <ul
-            className={
-              isMobile ? "header__nav-list-mobile" : "header__nav-list"
-            }
+            className={`header__nav-list ${isMobile ? "isMobile" : ""}`}
             onClick={handleMobile}
           >
             <li className="header__nav-item">

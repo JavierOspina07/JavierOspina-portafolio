@@ -105,10 +105,6 @@
 
   /* ===== ESTILOS DEL MENU OCULTO ===== */
   .header__nav-list {
-    display: none;
-  }
-
-  .header__nav-list-mobile {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -118,7 +114,23 @@
     background: var( --color-footer);
     right: 0;
     bottom: var(--header-height);
-    transition: all 0.5s ease-in-out;
+    width: 100%;
+    height: 0vh;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+    box-shadow: 0 0 10px #0000001a;
+  }
+
+  .isMobile {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    background: var( --color-footer);
+    right: 0;
+    bottom: var(--header-height);
     width: 100%;
     height: 90vh;
     box-shadow: 0 0 10px #0000001a;
@@ -150,6 +162,7 @@
     color: var(--color-close);
   }
 
+  /* boton para cambio de idioma */
   .header-btn-langage{
     position: absolute;
     right: 5em;
