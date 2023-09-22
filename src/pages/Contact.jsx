@@ -45,6 +45,15 @@ const Contact = () => {
             id="phone"
           />
         </div>
+        <div>
+          <input
+            className="input"
+            placeholder={t("contact.message")}
+            
+            type="text"
+            id="message"
+          />
+        </div>
         <button className="btn">{t("contact.sendto")}</button>
       </form>
     </div>

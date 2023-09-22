@@ -1,9 +1,8 @@
-import React from 'react'
-import useDarkMode from './useDarkMode'
-
+import React from "react"
+import useDarkMode from "./useDarkMode"
 
 const DarkModebutton = () => {
-    /* Darkmode */
+  /* Darkmode */
   const [darkMode, setDarkMode] = useDarkMode()
 
   /* Manipulacion para Darkmode */
@@ -12,7 +11,7 @@ const DarkModebutton = () => {
   }
   return (
     <div>
-        <div className="wrapper">
+      <div className="wrapper">
         <input
           type="checkbox"
           id="hide-checkbox"
@@ -44,3 +43,5 @@ const DarkModebutton = () => {
 }
 
 export default DarkModebutton
+
+

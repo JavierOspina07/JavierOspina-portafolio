@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  width: 100%;  
+  width: 100%;
   height: 100%;
   gap: 1em 2em;
 }
@@ -18,7 +18,6 @@
   background: var(--secondary-color);
   overflow: hidden;
   border-radius: 20px;
-
 }
 
 .temporary_text {
@@ -43,22 +42,19 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  /* edit the width to fit card */
+  /* editar la anchura para ajustar la tarjeta */
   width: 100%;
+  height: 70%;
   padding: 20px;
-  background: linear-gradient(
-    50deg,
-    var(--secondary-color),
-    var(--primary-color)
-  );
+  background: linear-gradient(50deg, var(--secondary-color), var(--primary-color));
   border-top-left-radius: 20px;
-  /* edit here to change the height of the content box */
-  transform: translateY(150px);
+  /* editar aquí para cambiar la altura de la caja de contenido */
   transition: transform 0.25s;
+  transform: translateY(150px);
 }
 
 .card_content::before {
-  content: "";
+  content: '';
   position: absolute;
   top: -47px;
   right: -45px;
@@ -107,7 +103,7 @@
   transition: opacity 0.3s ease-in-out;
   width: 5em;
   height: 5em;
-  border: none; 
+  border: none;
   outline: none;
   border-radius: 1em;
   background: transparent;
@@ -130,7 +126,6 @@
   background-color: transparent;
   color: black;
   pointer-events: auto;
-
 }
 
 .card:hover .card-btn-page,
@@ -145,7 +140,10 @@
   font-size: 2em;
   cursor: pointer;
   border: none;
-  transition: transform 0.2s, box-shadow 0.2s, color 0.2s;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s,
+    color 0.2s;
 }
 
 .fa-brands.fa-github:hover,
@@ -158,11 +156,40 @@
 }
 
 .fa-solid.fa-link:hover {
-  color: rgba(0, 0, 255, .404);
+  color: rgba(0, 0, 255, 0.404);
 }
 
 .fa-brands.fa-github:active,
 .fa-solid.fa-link:active {
   transform: translateY(0);
   box-shadow: none;
+}
+
+.card_technologies{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.bx.bxl-css3 {
+  padding-top: 0.3em;
+  font-size: 2em;
+  color: #006bc0;
+}
+.bx.bxl-html5 {
+  padding-top: 0.3em;
+  font-size: 2em;
+  color: #fc490b;
+}
+.bx.bxl-javascript {
+  padding-top: 0.3em;
+  font-size: 2em;
+  color: #f7e018;
+}
+.bx.bxl-react {
+  padding-top: 0.3em;
+  font-size: 2em;
+  color: #01d7fe;
 }

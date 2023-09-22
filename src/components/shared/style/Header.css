@@ -90,10 +90,19 @@
   outline: none;
 }
 
-.bx.bx-world{
+.fa-solid.fa-language{
   position: relative;
   font-size: 2.5em;
   cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.fa-solid.fa-language:hover {
+  transform: scale(1.05); 
+}
+
+.fa-solid.fa-language:active {
+  transform: scale(0.95); 
 }
 
 @media screen and (max-width: 760px) {

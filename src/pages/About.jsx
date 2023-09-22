@@ -11,7 +11,10 @@ const About = () => {
       <h1 class="about__title">{t("About.about-me")}</h1>
 
       <p class="about__description">
-        {t("About.about")}
+        {t("About.about1")}
+      </p>
+      <p class="about__description">
+        {t("About.about2")}
       </p>
     </div>
   )
