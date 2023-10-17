@@ -2,7 +2,6 @@ import "./style/About.css"
 import { useTranslation } from "react-i18next"
 
 
-
 const About = () => {
   const [t, i18n] = useTranslation("global")
 
